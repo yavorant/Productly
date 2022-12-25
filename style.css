@@ -1,6 +1,43 @@
 * {
-  border-size: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.header__content {
+  max-width: 1200px;
+  margin: 17px 120px 87px;
+  border: 1px solid red;
+}
+
+.header__logo {
+  margin: auto 142px auto 0;
+}
+
+.header__menu {
+  display: inline-block;
+  margin: auto 142px auto 0;
+  border: 1px solid red;
+}
+
+.header__list {
+  border: 1px solid red;
+}
+
+.header__link {
+  display: inline-block;
+  list-style-type: none;
+  margin: auto 20px auto 0;
+  border: 1px solid red;
+}
+
+.header__link:last-child {
+  margin: auto 0;
+}
+
+.header__buttons {
+  display: inline-block;
+  border: 1px solid red;
 }
